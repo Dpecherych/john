@@ -208,7 +208,7 @@
  /* Posts */
 
  .posts {
-   padding: 7px 148px 32px;
+   padding: 7px 0 32px;
    background-color: #EDF7FA;
    ;
  }
@@ -252,7 +252,6 @@
  .making_creating article {
    padding: 24px 21px 7px 23px;
    max-width: 418px;
-   height: 295px;
    background: #FFFFFF;
    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
    border-radius: 4px;
@@ -285,7 +284,8 @@
  }
 
 .making_creating article .slash::after {
-  content: "|";
+  content: "";
+  border: 1px solid #000000;
   margin-left: 26px;
   margin-right: 26px;
 }
